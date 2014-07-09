@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	font-family: Helvetica;
+}
+.background {
+    background-color:#fafafa;
+}
+.account {
+	font-size:16px;
+	color:#000000;
+	float:right;
+        background-color: #fafafa;
+}
+.account li {
+	display: inline;
+	padding-right:20px;
+}
+.account a {
+    color:#000000;
+}
+.nav {
+	font-family: Arial, sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	color:#FFFFFF;
+	border:2px thin #000;
+	background-color:#33F;
+	text-transform:uppercase;
+}
+.nav li {
+	display:inline;
+	padding-right: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.nav a:visited {
+    color: #FFFFFF;
+}
+.nav a:link {
+    color: #FFFFFF;
+}
+.nav a:hover {
+    color: #33F;
+}
+.jumbotron {
+	background-image: url(../img/bg.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	left: 50px;
+        box-shadow: 5px 5px 10px #888888;
+        text-shadow: 2px 2px 7px #888888;
+	color:#ffffff;
+	height: 300px;
+}
+.content {
+	padding-bottom: 20px;
+}
+.footer {
+	background-color:#33F;
+	color:#FFFFFF;
+	padding: 40px;
+}
+.row {
+	background-color: #ffffff;
+	border: 2px thin #000000;
+}
+.row h3 {
+	color: #33F;
+}
